@@ -1,0 +1,29 @@
+generated: '2026-07-21'
+method: searched
+source: https://sworkit.com/sworkit-workout-player-platform
+summary: >-
+  Sworkit ships its workout content as embeddable client-side player components
+  (the "Sworkit Workout Player Platform") rather than a public REST API. Partners
+  embed workouts on the web as easily as a YouTube video, or drop the player into
+  a native mobile app via a React Native component. Distinct from server-side SDKs.
+families:
+  - name: Web Player
+    kind: embeddable-web-player
+    description: >-
+      Embed Sworkit workouts directly on a website. Delivered as the
+      @sworkit/sw-workout-player web component/loader library.
+    loader: "@sworkit/sw-workout-player"
+    loader_url: https://www.npmjs.com/package/@sworkit/sw-workout-player
+  - name: Mobile App Player
+    kind: mobile-sdk-component
+    description: >-
+      Drop-in React Native component to play Sworkit workouts inside a native app,
+      avoiding hundreds of hours of custom development.
+    loader: "@sworkit/react-native-workout-player"
+    loader_url: https://www.npmjs.com/package/@sworkit/react-native-workout-player
+  - name: Sworkit LIVE Player
+    kind: hosted-surface
+    description: >-
+      Virtual group / live workout player surfaced within the Sworkit web app for
+      collaborative fitness experiences.
+    docs: https://sworkit.com/sworkit-workout-player-platform

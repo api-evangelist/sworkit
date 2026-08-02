@@ -1,0 +1,23 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.npmjs.com/org/sworkit
+packages:
+  - language: javascript
+    registry: npm
+    name: "@sworkit/sw-workout-player"
+    url: https://www.npmjs.com/package/@sworkit/sw-workout-player
+    install: npm install @sworkit/sw-workout-player
+    version: 2.2.3
+    license: MIT
+    official: true
+    description: Sworkit Workout Player — embeddable web workout player component.
+  - language: javascript
+    registry: npm
+    name: "@sworkit/react-native-workout-player"
+    url: https://www.npmjs.com/package/@sworkit/react-native-workout-player
+    install: npm install @sworkit/react-native-workout-player
+    version: 0.1.18
+    license: MIT
+    official: true
+    repository: https://github.com/sworkit/sw-workout-player-react-native
+    description: React Native component for playing Sworkit workouts with simple config options (mobile SDK).

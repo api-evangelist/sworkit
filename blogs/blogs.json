@@ -1,0 +1,14 @@
+{
+  "repo": "sworkit",
+  "feeds": [
+    {
+      "source": "https://help.sworkit.com/en/",
+      "feed_url": "https://help.sworkit.com/en/feed.xml",
+      "title": "",
+      "saved": 25,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 25,
+  "fetched": "2026-08-01T15:49:00Z"
+}

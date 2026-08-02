@@ -1,0 +1,20 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://sworkit.com/security
+url: https://sworkit.com/security
+certifications:
+- SOC 2 Type 2
+- HIPAA
+- GDPR
+reports_available_on_request:
+- SOC 2 Type 2
+- CAIQ Lite
+security_contact: privacy@sworkit.com
+evidence:
+- source: https://sworkit.com/security
+  keywords:
+  - soc 2 type 2
+  - hipaa
+  - gdpr
+  - caiq lite

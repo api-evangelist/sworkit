@@ -1,8 +1,26 @@
 aid: sworkit
 name: Sworkit
-description: Sworkit is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Sworkit Health is a digital wellbeing platform combining on-demand fitness,
+  mindfulness, mobility and recovery, nutrition, and wellness challenges to help
+  organizations improve employee engagement and workforce health. Rather than a
+  public REST API, Sworkit exposes its workout content to developers through the
+  Sworkit Workout Player Platform — an embeddable web player and a React Native
+  mobile SDK component, both published on npm under the @sworkit org. Its security
+  and compliance posture covers SOC 2 Type 2, HIPAA, and GDPR.
 url: https://raw.githubusercontent.com/api-evangelist/sworkit/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://sworkit.com/wp-content/uploads/2026/03/holistic_wellness.webp
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,15 +29,60 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-apis: []
+- Fitness
+- Health & Wellness
+- Employee Wellbeing
+- Workouts
+- Mindfulness
+- Nutrition
+- Embeddable Components
+- SDKs
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis: []
 common:
 - type: Website
   url: https://sworkit.com/
+- type: DeveloperPortal
+  url: https://sworkit.com/sworkit-workout-player-platform
+- type: Documentation
+  url: https://help.sworkit.com/en/
+- type: Support
+  url: https://help.sworkit.com/en/
+- type: HelpCenter
+  url: https://help.sworkit.com/en/
+- type: Blog
+  url: https://sworkit.com/blog
+- type: Pricing
+  url: https://sworkit.com/pricing
+- type: TermsOfService
+  url: https://sworkit.com/sworkit-enterprise-customer-terms-and-conditions
+- type: PrivacyPolicy
+  url: https://m.sworkit.com/privacy.html
+- type: GitHubOrganization
+  url: https://github.com/sworkit
+- type: LLMsTxt
+  url: llms/sworkit-llms.txt
+- type: Packages
+  url: packages/sworkit-packages.yml
+- type: SDKs
+  url: packages/sworkit-packages.yml
+- type: Components
+  url: components/sworkit-components.yml
+- type: DomainSecurity
+  url: security/sworkit-domain-security.yml
+- type: TrustCenter
+  url: security/sworkit-trust-center.yml
+- type: Compliance
+  url: https://sworkit.com/security
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
