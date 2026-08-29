@@ -9,6 +9,17 @@ description: >-
   mobile SDK component, both published on npm under the @sworkit org. Its security
   and compliance posture covers SOC 2 Type 2, HIPAA, and GDPR.
 url: https://raw.githubusercontent.com/api-evangelist/sworkit/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
